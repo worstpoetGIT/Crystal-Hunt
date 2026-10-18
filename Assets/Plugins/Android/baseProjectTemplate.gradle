@@ -1,0 +1,10 @@
+plugins {
+    // Keep AGP here
+    id 'com.android.application' version '7.4.2' apply false
+    id 'com.android.library'    version '7.4.2' apply false
+    **BUILD_SCRIPT_DEPS**
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

@@ -1,0 +1,1690 @@
+=== Important Inspector Summary ===  2025-08-15 16:01:36
+Unity 2021.3.45f1  Project: My project
+
+--- Scene: MainScene (Assets/Scenes/MainScene.unity) ---
+GameObject: Main Camera
+  Path: Main Camera
+  ActiveSelf: True   ActiveInHierarchy: True
+  Tag: MainCamera   Layer: Default (0)
+  Transform:
+    LocalPosition: (3.00, -1.00, -20.00)
+    LocalRotation (Euler): (0.00, 0.00, 0.00)
+    LocalScale: (1.00, 1.00, 1.00)
+  Component[0]: Transform
+  Component[1]: Camera enabled=True
+    Target Texture: None
+  Component[2]: AudioListener enabled=True
+  Component[3]: UniversalAdditionalCameraData enabled=True
+    Volume Trigger: None
+
+GameObject: Global Light 2D
+  Path: Global Light 2D
+  ActiveSelf: True   ActiveInHierarchy: True
+  Tag: Untagged   Layer: Default (0)
+  Transform:
+    LocalPosition: (0.00, 0.00, 0.00)
+    LocalRotation (Euler): (0.00, 0.00, 0.00)
+    LocalScale: (1.00, 1.00, 1.00)
+  Component[0]: Transform
+  Component[1]: Light2D enabled=True
+    Light Cookie Sprite: None
+    Deprecated Point Light Cookie Sprite: None
+
+GameObject: WorldMapUI
+  Path: WorldMapUI
+  ActiveSelf: True   ActiveInHierarchy: True
+  Tag: Untagged   Layer: Default (0)
+  Transform:
+    LocalPosition: (0.00, 0.00, 0.00)
+    LocalRotation (Euler): (0.00, 0.00, 0.00)
+    LocalScale: (1.00, 1.00, 1.00)
+  Component[0]: Transform
+  Component[1]: WorldMapUI enabled=True
+    Player Dot: Image on WorldMapUI/Canvas/SafeFrame/WorldMapPanel/PlayerDot (Scene)
+    Map Rect Transform: RectTransform on WorldMapUI/Canvas/SafeFrame/WorldMapPanel (Scene)
+    Crystal Prefab: Image on CrystalDot_1 (Scene)
+    Npc Prefab: Image on NPC (Scene)
+    Player Label: RectTransform on WorldMapUI/Canvas/SafeFrame/WorldMapPanel/PlayerLabel (Scene)
+    Info Text: None
+  Component[2]: MapViewController enabled=True
+    Local Map Panel: RectTransform on WorldMapUI/Canvas/SafeFrame/LocalMapPanel (Scene)
+    World Map Panel: RectTransform on WorldMapUI/Canvas/SafeFrame/WorldMapPanel (Scene)
+    Info Panel: RectTransform on WorldMapUI/Canvas/SafeFrame/InfoPanel (Scene)
+    Toggle View Btn: Button on WorldMapUI/Canvas/SafeFrame/ToggleCanvas/toggleViewBtn (Scene)
+    Local Content: RectTransform on WorldMapUI/Canvas/SafeFrame/LocalMapPanel/LocalContent (Scene)
+  Component[3]: FirebaseLobby enabled=True
+
+  GameObject: Canvas
+    Path: WorldMapUI/Canvas
+    ActiveSelf: True   ActiveInHierarchy: True
+    Tag: Untagged   Layer: Default (0)
+    Transform:
+      LocalPosition: (400.00, 225.00, 0.00)
+      LocalRotation (Euler): (0.00, 0.00, 0.00)
+      LocalScale: (0.87, 0.87, 0.87)
+    Component[0]: RectTransform
+    Component[1]: Canvas enabled=True
+      Camera: None
+    Component[2]: CanvasScaler enabled=True
+    Component[3]: GraphicRaycaster enabled=True
+    Component[4]: CanvasRenderer
+    Component[5]: Image enabled=True
+      Material: None
+      Sprite: bg [Sprite] @ Assets/Art/bg.png
+
+    GameObject: SafeFrame
+      Path: WorldMapUI/Canvas/SafeFrame
+      ActiveSelf: True   ActiveInHierarchy: True
+      Tag: Untagged   Layer: Default (0)
+      Transform:
+        LocalPosition: (0.00, 0.00, 0.00)
+        LocalRotation (Euler): (0.00, 0.00, 0.00)
+        LocalScale: (1.00, 1.00, 1.00)
+      Component[0]: RectTransform
+      Component[1]: AspectRatioFitter enabled=True
+
+      GameObject: WorldMapPanel
+        Path: WorldMapUI/Canvas/SafeFrame/WorldMapPanel
+        ActiveSelf: True   ActiveInHierarchy: True
+        Tag: Untagged   Layer: Default (0)
+        Transform:
+          LocalPosition: (283.11, -116.00, 0.00)
+          LocalRotation (Euler): (0.00, 0.00, 0.00)
+          LocalScale: (1.00, 1.00, 1.00)
+        Component[0]: RectTransform
+        Component[1]: CanvasRenderer
+        Component[2]: Image enabled=True
+          Material: None
+          Sprite: Background [Sprite] @ Resources/unity_builtin_extra
+
+        GameObject: MapImage_World
+          Path: WorldMapUI/Canvas/SafeFrame/WorldMapPanel/MapImage_World
+          ActiveSelf: True   ActiveInHierarchy: True
+          Tag: Untagged   Layer: Default (0)
+          Transform:
+            LocalPosition: (0.00, 0.00, 0.00)
+            LocalRotation (Euler): (0.00, 0.00, 0.00)
+            LocalScale: (1.00, 1.00, 1.00)
+          Component[0]: RectTransform
+          Component[1]: CanvasRenderer
+          Component[2]: RawImage enabled=True
+            Material: None
+            Texture: None
+
+        GameObject: PlayerDot
+          Path: WorldMapUI/Canvas/SafeFrame/WorldMapPanel/PlayerDot
+          ActiveSelf: True   ActiveInHierarchy: True
+          Tag: Untagged   Layer: Default (0)
+          Prefab: PlayerDot  [Connected]  AssetPath: Assets/Prefab/PlayerDot.prefab
+          Transform:
+            LocalPosition: (0.00, 0.00, 0.00)
+            LocalRotation (Euler): (0.00, 0.00, 0.00)
+            LocalScale: (1.00, 1.00, 1.00)
+          Component[0]: RectTransform
+          Component[1]: CanvasRenderer
+          Component[2]: Image enabled=True
+            Material: None
+            Sprite: Character [Sprite] @ Assets/Art/Character.png
+
+        GameObject: CrystalDot_1
+          Path: WorldMapUI/Canvas/SafeFrame/WorldMapPanel/CrystalDot_1
+          ActiveSelf: True   ActiveInHierarchy: True
+          Tag: Untagged   Layer: Default (0)
+          Prefab: CrystalDot_1  [Connected]  AssetPath: Assets/Prefab/CrystalDot_1.prefab
+          Transform:
+            LocalPosition: (52.00, -12.00, 0.00)
+            LocalRotation (Euler): (0.00, 0.00, 0.00)
+            LocalScale: (1.00, 1.00, 1.00)
+          Component[0]: RectTransform
+          Component[1]: CanvasRenderer
+          Component[2]: Image enabled=True
+            Material: None
+            Sprite: crystal [Sprite] @ Assets/Art/crystal.png
+
+        GameObject: CrystalDot_3
+          Path: WorldMapUI/Canvas/SafeFrame/WorldMapPanel/CrystalDot_3
+          ActiveSelf: True   ActiveInHierarchy: True
+          Tag: Untagged   Layer: Default (0)
+          Transform:
+            LocalPosition: (50.00, 50.00, 0.00)
+            LocalRotation (Euler): (0.00, 0.00, 0.00)
+            LocalScale: (1.00, 1.00, 1.00)
+          Component[0]: RectTransform
+          Component[1]: CanvasRenderer
+          Component[2]: Image enabled=True
+            Material: None
+            Sprite: crystal [Sprite] @ Assets/Art/crystal.png
+
+        GameObject: CrystalDot_2
+          Path: WorldMapUI/Canvas/SafeFrame/WorldMapPanel/CrystalDot_2
+          ActiveSelf: True   ActiveInHierarchy: True
+          Tag: Untagged   Layer: Default (0)
+          Transform:
+            LocalPosition: (-48.00, 50.00, 0.00)
+            LocalRotation (Euler): (0.00, 0.00, 0.00)
+            LocalScale: (1.00, 1.00, 1.00)
+          Component[0]: RectTransform
+          Component[1]: CanvasRenderer
+          Component[2]: Image enabled=True
+            Material: None
+            Sprite: crystal [Sprite] @ Assets/Art/crystal.png
+
+        GameObject: PlayerLabel
+          Path: WorldMapUI/Canvas/SafeFrame/WorldMapPanel/PlayerLabel
+          ActiveSelf: True   ActiveInHierarchy: True
+          Tag: Untagged   Layer: Default (0)
+          Transform:
+            LocalPosition: (0.00, 0.00, 0.00)
+            LocalRotation (Euler): (0.00, 0.00, 0.00)
+            LocalScale: (1.00, 1.00, 1.00)
+          Component[0]: RectTransform
+          Component[1]: CanvasRenderer
+          Component[2]: TextMeshProUGUI enabled=True
+            Material: None
+            Font Asset: LiberationSans SDF [TMP_FontAsset] @ Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+            Shared Material: LiberationSans SDF Material [Material] @ Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+            Font Material: None
+            Font Color Gradient Preset: None
+            Sprite Asset: None
+            Style Sheet: None
+            Linked Text Component: None
+            Parent Linked Component: None
+            Base Material: None
+
+      GameObject: StartPanel
+        Path: WorldMapUI/Canvas/SafeFrame/StartPanel
+        ActiveSelf: True   ActiveInHierarchy: True
+        Tag: Untagged   Layer: Default (0)
+        Transform:
+          LocalPosition: (0.00, 0.00, 0.00)
+          LocalRotation (Euler): (0.00, 0.00, 0.00)
+          LocalScale: (1.00, 1.00, 1.00)
+        Component[0]: RectTransform
+        Component[1]: CanvasRenderer
+        Component[2]: Image enabled=True
+          Material: None
+          Sprite: Background [Sprite] @ Resources/unity_builtin_extra
+        Component[3]: StartMenuUI enabled=True
+          Game Name Input: TMP_InputField on WorldMapUI/Canvas/SafeFrame/StartPanel/GameNameInput (Scene)
+          Port Input: TMP_InputField on WorldMapUI/Canvas/SafeFrame/StartPanel/PortInput (Scene)
+          Time Minutes Input: TMP_InputField on WorldMapUI/Canvas/SafeFrame/StartPanel/TimeMinutesInput (Scene)
+          Host IP Input: TMP_InputField on WorldMapUI/Canvas/SafeFrame/StartPanel/HostIPInput (Scene)
+          Player Id Input: TMP_InputField on WorldMapUI/Canvas/SafeFrame/StartPanel/PlayerIdInput (Scene)
+          Begin New Btn: Button on WorldMapUI/Canvas/SafeFrame/StartPanel/BeginNewBtn (Scene)
+          Join Existing Btn: Button on WorldMapUI/Canvas/SafeFrame/StartPanel/JoinExistingBtn (Scene)
+          Refresh Lobby Btn: Button on WorldMapUI/Canvas/SafeFrame/StartPanel/RefreshLobbyBtn (Scene)
+          Start Error Label: TextMeshProUGUI on WorldMapUI/Canvas/SafeFrame/StartPanel/StartErrorLabel (Scene)
+          Track Target: None
+        Component[4]: CanvasGroup enabled=True
+
+        GameObject: GameNameInput
+          Path: WorldMapUI/Canvas/SafeFrame/StartPanel/GameNameInput
+          ActiveSelf: True   ActiveInHierarchy: True
+          Tag: Untagged   Layer: Default (0)
+          Transform:
+            LocalPosition: (4.00, 102.00, 0.00)
+            LocalRotation (Euler): (0.00, 0.00, 0.00)
+            LocalScale: (1.00, 1.00, 1.00)
+          Component[0]: RectTransform
+          Component[1]: CanvasRenderer
+          Component[2]: Image enabled=True
+            Material: None
+            Sprite: InputFieldBackground [Sprite] @ Resources/unity_builtin_extra
+          Component[3]: TMP_InputField enabled=True
+            Target Graphic: Image on WorldMapUI/Canvas/SafeFrame/StartPanel/GameNameInput (Scene)
+            Text Viewport: RectTransform on WorldMapUI/Canvas/SafeFrame/StartPanel/GameNameInput/Text Area (Scene)
+            Text Component: TextMeshProUGUI on WorldMapUI/Canvas/SafeFrame/StartPanel/GameNameInput/Text Area/Text (Scene)
+            Placeholder: TextMeshProUGUI on WorldMapUI/Canvas/SafeFrame/StartPanel/GameNameInput/Text Area/Placeholder (Scene)
+            Vertical Scrollbar: None
+            Vertical Scrollbar Event Handler: None
+            Layout Group: None
+            Global Font Asset: LiberationSans SDF [TMP_FontAsset] @ Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+            Input Validator: None
+
+          GameObject: Text Area
+            Path: WorldMapUI/Canvas/SafeFrame/StartPanel/GameNameInput/Text Area
+            ActiveSelf: True   ActiveInHierarchy: True
+            Tag: Untagged   Layer: Default (0)
+            Transform:
+              LocalPosition: (0.00, -0.50, 0.00)
+              LocalRotation (Euler): (0.00, 0.00, 0.00)
+              LocalScale: (1.00, 1.00, 1.00)
+            Component[0]: RectTransform
+            Component[1]: RectMask2D enabled=True
+
+            GameObject: Placeholder
+              Path: WorldMapUI/Canvas/SafeFrame/StartPanel/GameNameInput/Text Area/Placeholder
+              ActiveSelf: True   ActiveInHierarchy: True
+              Tag: Untagged   Layer: Default (0)
+              Transform:
+                LocalPosition: (0.00, 0.00, 0.00)
+                LocalRotation (Euler): (0.00, 0.00, 0.00)
+                LocalScale: (1.00, 1.00, 1.00)
+              Component[0]: RectTransform
+              Component[1]: CanvasRenderer
+              Component[2]: TextMeshProUGUI enabled=False
+                Material: None
+                Font Asset: LiberationSans SDF [TMP_FontAsset] @ Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+                Shared Material: LiberationSans SDF Material [Material] @ Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+                Font Material: None
+                Font Color Gradient Preset: None
+                Sprite Asset: None
+                Style Sheet: None
+                Linked Text Component: None
+                Parent Linked Component: None
+                Base Material: None
+              Component[3]: LayoutElement enabled=True
+
+            GameObject: Text
+              Path: WorldMapUI/Canvas/SafeFrame/StartPanel/GameNameInput/Text Area/Text
+              ActiveSelf: True   ActiveInHierarchy: True
+              Tag: Untagged   Layer: Default (0)
+              Transform:
+                LocalPosition: (0.00, 0.00, 0.00)
+                LocalRotation (Euler): (0.00, 0.00, 0.00)
+                LocalScale: (1.00, 1.00, 1.00)
+              Component[0]: RectTransform
+              Component[1]: CanvasRenderer
+              Component[2]: TextMeshProUGUI enabled=True
+                Material: None
+                Font Asset: LiberationSans SDF [TMP_FontAsset] @ Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+                Shared Material: LiberationSans SDF Material [Material] @ Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+                Font Material: None
+                Font Color Gradient Preset: None
+                Sprite Asset: None
+                Style Sheet: None
+                Linked Text Component: None
+                Parent Linked Component: None
+                Base Material: None
+
+        GameObject: PortInput
+          Path: WorldMapUI/Canvas/SafeFrame/StartPanel/PortInput
+          ActiveSelf: True   ActiveInHierarchy: True
+          Tag: Untagged   Layer: Default (0)
+          Transform:
+            LocalPosition: (4.00, 58.00, 0.00)
+            LocalRotation (Euler): (0.00, 0.00, 0.00)
+            LocalScale: (1.00, 1.00, 1.00)
+          Component[0]: RectTransform
+          Component[1]: CanvasRenderer
+          Component[2]: Image enabled=True
+            Material: None
+            Sprite: InputFieldBackground [Sprite] @ Resources/unity_builtin_extra
+          Component[3]: TMP_InputField enabled=True
+            Target Graphic: Image on WorldMapUI/Canvas/SafeFrame/StartPanel/PortInput (Scene)
+            Text Viewport: RectTransform on WorldMapUI/Canvas/SafeFrame/StartPanel/PortInput/Text Area (Scene)
+            Text Component: TextMeshProUGUI on WorldMapUI/Canvas/SafeFrame/StartPanel/PortInput/Text Area/Text (Scene)
+            Placeholder: TextMeshProUGUI on WorldMapUI/Canvas/SafeFrame/StartPanel/PortInput/Text Area/Placeholder (Scene)
+            Vertical Scrollbar: None
+            Vertical Scrollbar Event Handler: None
+            Layout Group: None
+            Global Font Asset: LiberationSans SDF [TMP_FontAsset] @ Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+            Input Validator: None
+
+          GameObject: Text Area
+            Path: WorldMapUI/Canvas/SafeFrame/StartPanel/PortInput/Text Area
+            ActiveSelf: True   ActiveInHierarchy: True
+            Tag: Untagged   Layer: Default (0)
+            Transform:
+              LocalPosition: (0.00, -0.50, 0.00)
+              LocalRotation (Euler): (0.00, 0.00, 0.00)
+              LocalScale: (1.00, 1.00, 1.00)
+            Component[0]: RectTransform
+            Component[1]: RectMask2D enabled=True
+
+            GameObject: Placeholder
+              Path: WorldMapUI/Canvas/SafeFrame/StartPanel/PortInput/Text Area/Placeholder
+              ActiveSelf: True   ActiveInHierarchy: True
+              Tag: Untagged   Layer: Default (0)
+              Transform:
+                LocalPosition: (0.00, 0.00, 0.00)
+                LocalRotation (Euler): (0.00, 0.00, 0.00)
+                LocalScale: (1.00, 1.00, 1.00)
+              Component[0]: RectTransform
+              Component[1]: CanvasRenderer
+              Component[2]: TextMeshProUGUI enabled=False
+                Material: None
+                Font Asset: LiberationSans SDF [TMP_FontAsset] @ Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+                Shared Material: LiberationSans SDF Material [Material] @ Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+                Font Material: None
+                Font Color Gradient Preset: None
+                Sprite Asset: None
+                Style Sheet: None
+                Linked Text Component: None
+                Parent Linked Component: None
+                Base Material: None
+              Component[3]: LayoutElement enabled=True
+
+            GameObject: Text
+              Path: WorldMapUI/Canvas/SafeFrame/StartPanel/PortInput/Text Area/Text
+              ActiveSelf: True   ActiveInHierarchy: True
+              Tag: Untagged   Layer: Default (0)
+              Transform:
+                LocalPosition: (0.00, 0.00, 0.00)
+                LocalRotation (Euler): (0.00, 0.00, 0.00)
+                LocalScale: (1.00, 1.00, 1.00)
+              Component[0]: RectTransform
+              Component[1]: CanvasRenderer
+              Component[2]: TextMeshProUGUI enabled=True
+                Material: None
+                Font Asset: LiberationSans SDF [TMP_FontAsset] @ Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+                Shared Material: LiberationSans SDF Material [Material] @ Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+                Font Material: None
+                Font Color Gradient Preset: None
+                Sprite Asset: None
+                Style Sheet: None
+                Linked Text Component: None
+                Parent Linked Component: None
+                Base Material: None
+
+        GameObject: TimeMinutesInput
+          Path: WorldMapUI/Canvas/SafeFrame/StartPanel/TimeMinutesInput
+          ActiveSelf: True   ActiveInHierarchy: True
+          Tag: Untagged   Layer: Default (0)
+          Transform:
+            LocalPosition: (0.00, 0.00, 0.00)
+            LocalRotation (Euler): (0.00, 0.00, 0.00)
+            LocalScale: (1.00, 1.00, 1.00)
+          Component[0]: RectTransform
+          Component[1]: CanvasRenderer
+          Component[2]: Image enabled=True
+            Material: None
+            Sprite: InputFieldBackground [Sprite] @ Resources/unity_builtin_extra
+          Component[3]: TMP_InputField enabled=True
+            Target Graphic: Image on WorldMapUI/Canvas/SafeFrame/StartPanel/TimeMinutesInput (Scene)
+            Text Viewport: RectTransform on WorldMapUI/Canvas/SafeFrame/StartPanel/TimeMinutesInput/Text Area (Scene)
+            Text Component: TextMeshProUGUI on WorldMapUI/Canvas/SafeFrame/StartPanel/TimeMinutesInput/Text Area/Text (Scene)
+            Placeholder: TextMeshProUGUI on WorldMapUI/Canvas/SafeFrame/StartPanel/TimeMinutesInput/Text Area/Placeholder (Scene)
+            Vertical Scrollbar: None
+            Vertical Scrollbar Event Handler: None
+            Layout Group: None
+            Global Font Asset: LiberationSans SDF [TMP_FontAsset] @ Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+            Input Validator: None
+
+          GameObject: Text Area
+            Path: WorldMapUI/Canvas/SafeFrame/StartPanel/TimeMinutesInput/Text Area
+            ActiveSelf: True   ActiveInHierarchy: True
+            Tag: Untagged   Layer: Default (0)
+            Transform:
+              LocalPosition: (0.00, -0.50, 0.00)
+              LocalRotation (Euler): (0.00, 0.00, 0.00)
+              LocalScale: (1.00, 1.00, 1.00)
+            Component[0]: RectTransform
+            Component[1]: RectMask2D enabled=True
+
+            GameObject: Placeholder
+              Path: WorldMapUI/Canvas/SafeFrame/StartPanel/TimeMinutesInput/Text Area/Placeholder
+              ActiveSelf: True   ActiveInHierarchy: True
+              Tag: Untagged   Layer: Default (0)
+              Transform:
+                LocalPosition: (0.00, 0.00, 0.00)
+                LocalRotation (Euler): (0.00, 0.00, 0.00)
+                LocalScale: (1.00, 1.00, 1.00)
+              Component[0]: RectTransform
+              Component[1]: CanvasRenderer
+              Component[2]: TextMeshProUGUI enabled=False
+                Material: None
+                Font Asset: LiberationSans SDF [TMP_FontAsset] @ Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+                Shared Material: LiberationSans SDF Material [Material] @ Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+                Font Material: None
+                Font Color Gradient Preset: None
+                Sprite Asset: None
+                Style Sheet: None
+                Linked Text Component: None
+                Parent Linked Component: None
+                Base Material: None
+              Component[3]: LayoutElement enabled=True
+
+            GameObject: Text
+              Path: WorldMapUI/Canvas/SafeFrame/StartPanel/TimeMinutesInput/Text Area/Text
+              ActiveSelf: True   ActiveInHierarchy: True
+              Tag: Untagged   Layer: Default (0)
+              Transform:
+                LocalPosition: (0.00, 0.00, 0.00)
+                LocalRotation (Euler): (0.00, 0.00, 0.00)
+                LocalScale: (1.00, 1.00, 1.00)
+              Component[0]: RectTransform
+              Component[1]: CanvasRenderer
+              Component[2]: TextMeshProUGUI enabled=True
+                Material: None
+                Font Asset: LiberationSans SDF [TMP_FontAsset] @ Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+                Shared Material: LiberationSans SDF Material [Material] @ Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+                Font Material: None
+                Font Color Gradient Preset: None
+                Sprite Asset: None
+                Style Sheet: None
+                Linked Text Component: None
+                Parent Linked Component: None
+                Base Material: None
+
+        GameObject: HostIPInput
+          Path: WorldMapUI/Canvas/SafeFrame/StartPanel/HostIPInput
+          ActiveSelf: True   ActiveInHierarchy: True
+          Tag: Untagged   Layer: Default (0)
+          Transform:
+            LocalPosition: (1.00, -46.00, 0.00)
+            LocalRotation (Euler): (0.00, 0.00, 0.00)
+            LocalScale: (1.00, 1.00, 1.00)
+          Component[0]: RectTransform
+          Component[1]: CanvasRenderer
+          Component[2]: Image enabled=True
+            Material: None
+            Sprite: InputFieldBackground [Sprite] @ Resources/unity_builtin_extra
+          Component[3]: TMP_InputField enabled=True
+            Target Graphic: Image on WorldMapUI/Canvas/SafeFrame/StartPanel/HostIPInput (Scene)
+            Text Viewport: RectTransform on WorldMapUI/Canvas/SafeFrame/StartPanel/HostIPInput/Text Area (Scene)
+            Text Component: TextMeshProUGUI on WorldMapUI/Canvas/SafeFrame/StartPanel/HostIPInput/Text Area/Text (Scene)
+            Placeholder: TextMeshProUGUI on WorldMapUI/Canvas/SafeFrame/StartPanel/HostIPInput/Text Area/Placeholder (Scene)
+            Vertical Scrollbar: None
+            Vertical Scrollbar Event Handler: None
+            Layout Group: None
+            Global Font Asset: LiberationSans SDF [TMP_FontAsset] @ Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+            Input Validator: None
+
+          GameObject: Text Area
+            Path: WorldMapUI/Canvas/SafeFrame/StartPanel/HostIPInput/Text Area
+            ActiveSelf: True   ActiveInHierarchy: True
+            Tag: Untagged   Layer: Default (0)
+            Transform:
+              LocalPosition: (0.00, -0.50, 0.00)
+              LocalRotation (Euler): (0.00, 0.00, 0.00)
+              LocalScale: (1.00, 1.00, 1.00)
+            Component[0]: RectTransform
+            Component[1]: RectMask2D enabled=True
+
+            GameObject: Placeholder
+              Path: WorldMapUI/Canvas/SafeFrame/StartPanel/HostIPInput/Text Area/Placeholder
+              ActiveSelf: True   ActiveInHierarchy: True
+              Tag: Untagged   Layer: Default (0)
+              Transform:
+                LocalPosition: (0.00, 0.00, 0.00)
+                LocalRotation (Euler): (0.00, 0.00, 0.00)
+                LocalScale: (1.00, 1.00, 1.00)
+              Component[0]: RectTransform
+              Component[1]: CanvasRenderer
+              Component[2]: TextMeshProUGUI enabled=False
+                Material: None
+                Font Asset: LiberationSans SDF [TMP_FontAsset] @ Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+                Shared Material: LiberationSans SDF Material [Material] @ Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+                Font Material: None
+                Font Color Gradient Preset: None
+                Sprite Asset: None
+                Style Sheet: None
+                Linked Text Component: None
+                Parent Linked Component: None
+                Base Material: None
+              Component[3]: LayoutElement enabled=True
+
+            GameObject: Text
+              Path: WorldMapUI/Canvas/SafeFrame/StartPanel/HostIPInput/Text Area/Text
+              ActiveSelf: True   ActiveInHierarchy: True
+              Tag: Untagged   Layer: Default (0)
+              Transform:
+                LocalPosition: (0.00, 0.00, 0.00)
+                LocalRotation (Euler): (0.00, 0.00, 0.00)
+                LocalScale: (1.00, 1.00, 1.00)
+              Component[0]: RectTransform
+              Component[1]: CanvasRenderer
+              Component[2]: TextMeshProUGUI enabled=True
+                Material: None
+                Font Asset: LiberationSans SDF [TMP_FontAsset] @ Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+                Shared Material: LiberationSans SDF Material [Material] @ Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+                Font Material: None
+                Font Color Gradient Preset: None
+                Sprite Asset: None
+                Style Sheet: None
+                Linked Text Component: None
+                Parent Linked Component: None
+                Base Material: None
+
+        GameObject: JoinExistingBtn
+          Path: WorldMapUI/Canvas/SafeFrame/StartPanel/JoinExistingBtn
+          ActiveSelf: True   ActiveInHierarchy: True
+          Tag: Untagged   Layer: Default (0)
+          Transform:
+            LocalPosition: (96.00, -122.00, 0.00)
+            LocalRotation (Euler): (0.00, 0.00, 0.00)
+            LocalScale: (1.00, 1.00, 1.00)
+          Component[0]: RectTransform
+          Component[1]: CanvasRenderer
+          Component[2]: Image enabled=True
+            Material: None
+            Sprite: UISprite [Sprite] @ Resources/unity_builtin_extra
+          Component[3]: Button enabled=True
+            Target Graphic: Image on WorldMapUI/Canvas/SafeFrame/StartPanel/JoinExistingBtn (Scene)
+
+          GameObject: Text (TMP)
+            Path: WorldMapUI/Canvas/SafeFrame/StartPanel/JoinExistingBtn/Text (TMP)
+            ActiveSelf: True   ActiveInHierarchy: True
+            Tag: Untagged   Layer: Default (0)
+            Transform:
+              LocalPosition: (0.00, 0.00, 0.00)
+              LocalRotation (Euler): (0.00, 0.00, 0.00)
+              LocalScale: (1.00, 1.00, 1.00)
+            Component[0]: RectTransform
+            Component[1]: CanvasRenderer
+            Component[2]: TextMeshProUGUI enabled=True
+              Material: None
+              Font Asset: LiberationSans SDF [TMP_FontAsset] @ Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+              Shared Material: LiberationSans SDF Material [Material] @ Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+              Font Material: None
+              Font Color Gradient Preset: None
+              Sprite Asset: None
+              Style Sheet: None
+              Linked Text Component: None
+              Parent Linked Component: None
+              Base Material: None
+
+        GameObject: BeginNewBtn
+          Path: WorldMapUI/Canvas/SafeFrame/StartPanel/BeginNewBtn
+          ActiveSelf: True   ActiveInHierarchy: True
+          Tag: Untagged   Layer: Default (0)
+          Transform:
+            LocalPosition: (-106.00, -125.00, 0.00)
+            LocalRotation (Euler): (0.00, 0.00, 0.00)
+            LocalScale: (1.00, 1.00, 1.00)
+          Component[0]: RectTransform
+          Component[1]: CanvasRenderer
+          Component[2]: Image enabled=True
+            Material: None
+            Sprite: UISprite [Sprite] @ Resources/unity_builtin_extra
+          Component[3]: Button enabled=True
+            Target Graphic: Image on WorldMapUI/Canvas/SafeFrame/StartPanel/BeginNewBtn (Scene)
+
+          GameObject: Text (TMP)
+            Path: WorldMapUI/Canvas/SafeFrame/StartPanel/BeginNewBtn/Text (TMP)
+            ActiveSelf: True   ActiveInHierarchy: True
+            Tag: Untagged   Layer: Default (0)
+            Transform:
+              LocalPosition: (0.00, 0.00, 0.00)
+              LocalRotation (Euler): (0.00, 0.00, 0.00)
+              LocalScale: (1.00, 1.00, 1.00)
+            Component[0]: RectTransform
+            Component[1]: CanvasRenderer
+            Component[2]: TextMeshProUGUI enabled=True
+              Material: None
+              Font Asset: LiberationSans SDF [TMP_FontAsset] @ Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+              Shared Material: LiberationSans SDF Material [Material] @ Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+              Font Material: None
+              Font Color Gradient Preset: None
+              Sprite Asset: None
+              Style Sheet: None
+              Linked Text Component: None
+              Parent Linked Component: None
+              Base Material: None
+
+        GameObject: StartErrorLabel
+          Path: WorldMapUI/Canvas/SafeFrame/StartPanel/StartErrorLabel
+          ActiveSelf: True   ActiveInHierarchy: True
+          Tag: Untagged   Layer: Default (0)
+          Transform:
+            LocalPosition: (-2.00, -89.00, 0.00)
+            LocalRotation (Euler): (0.00, 0.00, 0.00)
+            LocalScale: (1.00, 1.00, 1.00)
+          Component[0]: RectTransform
+          Component[1]: CanvasRenderer
+          Component[2]: TextMeshProUGUI enabled=True
+            Material: None
+            Font Asset: LiberationSans SDF [TMP_FontAsset] @ Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+            Shared Material: LiberationSans SDF Material [Material] @ Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+            Font Material: None
+            Font Color Gradient Preset: None
+            Sprite Asset: None
+            Style Sheet: None
+            Linked Text Component: None
+            Parent Linked Component: None
+            Base Material: None
+
+        GameObject: PlayerIdInput
+          Path: WorldMapUI/Canvas/SafeFrame/StartPanel/PlayerIdInput
+          ActiveSelf: True   ActiveInHierarchy: True
+          Tag: Untagged   Layer: Default (0)
+          Transform:
+            LocalPosition: (0.00, -87.00, 0.00)
+            LocalRotation (Euler): (0.00, 0.00, 0.00)
+            LocalScale: (1.00, 1.00, 1.00)
+          Component[0]: RectTransform
+          Component[1]: CanvasRenderer
+          Component[2]: Image enabled=True
+            Material: None
+            Sprite: InputFieldBackground [Sprite] @ Resources/unity_builtin_extra
+          Component[3]: TMP_InputField enabled=True
+            Target Graphic: Image on WorldMapUI/Canvas/SafeFrame/StartPanel/PlayerIdInput (Scene)
+            Text Viewport: RectTransform on WorldMapUI/Canvas/SafeFrame/StartPanel/PlayerIdInput/Text Area (Scene)
+            Text Component: TextMeshProUGUI on WorldMapUI/Canvas/SafeFrame/StartPanel/PlayerIdInput/Text Area/Text (Scene)
+            Placeholder: TextMeshProUGUI on WorldMapUI/Canvas/SafeFrame/StartPanel/PlayerIdInput/Text Area/Placeholder (Scene)
+            Vertical Scrollbar: None
+            Vertical Scrollbar Event Handler: None
+            Layout Group: None
+            Global Font Asset: LiberationSans SDF [TMP_FontAsset] @ Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+            Input Validator: None
+
+          GameObject: Text Area
+            Path: WorldMapUI/Canvas/SafeFrame/StartPanel/PlayerIdInput/Text Area
+            ActiveSelf: True   ActiveInHierarchy: True
+            Tag: Untagged   Layer: Default (0)
+            Transform:
+              LocalPosition: (0.00, -0.50, 0.00)
+              LocalRotation (Euler): (0.00, 0.00, 0.00)
+              LocalScale: (1.00, 1.00, 1.00)
+            Component[0]: RectTransform
+            Component[1]: RectMask2D enabled=True
+
+            GameObject: Placeholder
+              Path: WorldMapUI/Canvas/SafeFrame/StartPanel/PlayerIdInput/Text Area/Placeholder
+              ActiveSelf: True   ActiveInHierarchy: True
+              Tag: Untagged   Layer: Default (0)
+              Transform:
+                LocalPosition: (0.00, 0.00, 0.00)
+                LocalRotation (Euler): (0.00, 0.00, 0.00)
+                LocalScale: (1.00, 1.00, 1.00)
+              Component[0]: RectTransform
+              Component[1]: CanvasRenderer
+              Component[2]: TextMeshProUGUI enabled=False
+                Material: None
+                Font Asset: LiberationSans SDF [TMP_FontAsset] @ Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+                Shared Material: LiberationSans SDF Material [Material] @ Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+                Font Material: None
+                Font Color Gradient Preset: None
+                Sprite Asset: None
+                Style Sheet: None
+                Linked Text Component: None
+                Parent Linked Component: None
+                Base Material: None
+              Component[3]: LayoutElement enabled=True
+
+            GameObject: Text
+              Path: WorldMapUI/Canvas/SafeFrame/StartPanel/PlayerIdInput/Text Area/Text
+              ActiveSelf: True   ActiveInHierarchy: True
+              Tag: Untagged   Layer: Default (0)
+              Transform:
+                LocalPosition: (0.00, 0.00, 0.00)
+                LocalRotation (Euler): (0.00, 0.00, 0.00)
+                LocalScale: (1.00, 1.00, 1.00)
+              Component[0]: RectTransform
+              Component[1]: CanvasRenderer
+              Component[2]: TextMeshProUGUI enabled=True
+                Material: None
+                Font Asset: LiberationSans SDF [TMP_FontAsset] @ Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+                Shared Material: LiberationSans SDF Material [Material] @ Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+                Font Material: None
+                Font Color Gradient Preset: None
+                Sprite Asset: None
+                Style Sheet: None
+                Linked Text Component: None
+                Parent Linked Component: None
+                Base Material: None
+
+        GameObject: RefreshLobbyBtn
+          Path: WorldMapUI/Canvas/SafeFrame/StartPanel/RefreshLobbyBtn
+          ActiveSelf: True   ActiveInHierarchy: True
+          Tag: Untagged   Layer: Default (0)
+          Transform:
+            LocalPosition: (148.00, 138.00, 0.00)
+            LocalRotation (Euler): (0.00, 0.00, 0.00)
+            LocalScale: (1.00, 1.00, 1.00)
+          Component[0]: RectTransform
+          Component[1]: CanvasRenderer
+          Component[2]: Image enabled=True
+            Material: None
+            Sprite: UISprite [Sprite] @ Resources/unity_builtin_extra
+          Component[3]: Button enabled=True
+            Target Graphic: Image on WorldMapUI/Canvas/SafeFrame/StartPanel/RefreshLobbyBtn (Scene)
+
+          GameObject: Text (TMP)
+            Path: WorldMapUI/Canvas/SafeFrame/StartPanel/RefreshLobbyBtn/Text (TMP)
+            ActiveSelf: True   ActiveInHierarchy: True
+            Tag: Untagged   Layer: Default (0)
+            Transform:
+              LocalPosition: (0.00, 0.00, 0.00)
+              LocalRotation (Euler): (0.00, 0.00, 0.00)
+              LocalScale: (1.00, 1.00, 1.00)
+            Component[0]: RectTransform
+            Component[1]: CanvasRenderer
+            Component[2]: TextMeshProUGUI enabled=True
+              Material: None
+              Font Asset: LiberationSans SDF [TMP_FontAsset] @ Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+              Shared Material: LiberationSans SDF Material [Material] @ Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+              Font Material: None
+              Font Color Gradient Preset: None
+              Sprite Asset: None
+              Style Sheet: None
+              Linked Text Component: None
+              Parent Linked Component: None
+              Base Material: None
+
+      GameObject: InfoPanel
+        Path: WorldMapUI/Canvas/SafeFrame/InfoPanel
+        ActiveSelf: True   ActiveInHierarchy: True
+        Tag: Untagged   Layer: Default (0)
+        Transform:
+          LocalPosition: (-399.99, 251.81, 0.00)
+          LocalRotation (Euler): (0.00, 0.00, 0.00)
+          LocalScale: (1.00, 1.00, 1.00)
+        Component[0]: RectTransform
+        Component[1]: CanvasRenderer
+        Component[2]: Image enabled=True
+          Material: None
+          Sprite: Background [Sprite] @ Resources/unity_builtin_extra
+
+        GameObject: TimeText
+          Path: WorldMapUI/Canvas/SafeFrame/InfoPanel/TimeText
+          ActiveSelf: True   ActiveInHierarchy: True
+          Tag: Untagged   Layer: Default (0)
+          Transform:
+            LocalPosition: (125.00, -36.00, 0.00)
+            LocalRotation (Euler): (0.00, 0.00, 0.00)
+            LocalScale: (1.00, 1.00, 1.00)
+          Component[0]: RectTransform
+          Component[1]: CanvasRenderer
+          Component[2]: TextMeshProUGUI enabled=True
+            Material: None
+            Font Asset: LiberationSans SDF [TMP_FontAsset] @ Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+            Shared Material: LiberationSans SDF Material [Material] @ Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+            Font Material: None
+            Font Color Gradient Preset: None
+            Sprite Asset: None
+            Style Sheet: None
+            Linked Text Component: None
+            Parent Linked Component: None
+            Base Material: None
+
+        GameObject: EnergyText
+          Path: WorldMapUI/Canvas/SafeFrame/InfoPanel/EnergyText
+          ActiveSelf: True   ActiveInHierarchy: True
+          Tag: Untagged   Layer: Default (0)
+          Transform:
+            LocalPosition: (125.00, -60.00, 0.00)
+            LocalRotation (Euler): (0.00, 0.00, 0.00)
+            LocalScale: (1.00, 1.00, 1.00)
+          Component[0]: RectTransform
+          Component[1]: CanvasRenderer
+          Component[2]: TextMeshProUGUI enabled=True
+            Material: None
+            Font Asset: LiberationSans SDF [TMP_FontAsset] @ Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+            Shared Material: LiberationSans SDF Material [Material] @ Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+            Font Material: None
+            Font Color Gradient Preset: None
+            Sprite Asset: None
+            Style Sheet: None
+            Linked Text Component: None
+            Parent Linked Component: None
+            Base Material: None
+
+        GameObject: CarriedText
+          Path: WorldMapUI/Canvas/SafeFrame/InfoPanel/CarriedText
+          ActiveSelf: True   ActiveInHierarchy: True
+          Tag: Untagged   Layer: Default (0)
+          Transform:
+            LocalPosition: (125.00, -86.00, 0.00)
+            LocalRotation (Euler): (0.00, 0.00, 0.00)
+            LocalScale: (1.00, 1.00, 1.00)
+          Component[0]: RectTransform
+          Component[1]: CanvasRenderer
+          Component[2]: TextMeshProUGUI enabled=True
+            Material: None
+            Font Asset: LiberationSans SDF [TMP_FontAsset] @ Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+            Shared Material: LiberationSans SDF Material [Material] @ Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+            Font Material: None
+            Font Color Gradient Preset: None
+            Sprite Asset: None
+            Style Sheet: None
+            Linked Text Component: None
+            Parent Linked Component: None
+            Base Material: None
+
+        GameObject: RivalInfoText
+          Path: WorldMapUI/Canvas/SafeFrame/InfoPanel/RivalInfoText
+          ActiveSelf: True   ActiveInHierarchy: True
+          Tag: Untagged   Layer: Default (0)
+          Transform:
+            LocalPosition: (125.00, -116.00, 0.00)
+            LocalRotation (Euler): (0.00, 0.00, 0.00)
+            LocalScale: (1.00, 1.00, 1.00)
+          Component[0]: RectTransform
+          Component[1]: CanvasRenderer
+          Component[2]: TextMeshProUGUI enabled=True
+            Material: None
+            Font Asset: LiberationSans SDF [TMP_FontAsset] @ Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+            Shared Material: LiberationSans SDF Material [Material] @ Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+            Font Material: None
+            Font Color Gradient Preset: None
+            Sprite Asset: None
+            Style Sheet: None
+            Linked Text Component: None
+            Parent Linked Component: None
+            Base Material: None
+
+      GameObject: LocalMapPanel
+        Path: WorldMapUI/Canvas/SafeFrame/LocalMapPanel
+        ActiveSelf: False   ActiveInHierarchy: False
+        Tag: Untagged   Layer: Default (0)
+        Transform:
+          LocalPosition: (-288.61, -154.00, 0.00)
+          LocalRotation (Euler): (0.00, 0.00, 0.00)
+          LocalScale: (1.00, 1.00, 1.00)
+        Component[0]: RectTransform
+        Component[1]: CanvasRenderer
+        Component[2]: Image enabled=True
+          Material: None
+          Sprite: Background [Sprite] @ Resources/unity_builtin_extra
+
+        GameObject: LocalHeaderText
+          Path: WorldMapUI/Canvas/SafeFrame/LocalMapPanel/LocalHeaderText
+          ActiveSelf: True   ActiveInHierarchy: False
+          Tag: Untagged   Layer: Default (0)
+          Transform:
+            LocalPosition: (-6.00, 73.00, 0.00)
+            LocalRotation (Euler): (0.00, 0.00, 0.00)
+            LocalScale: (1.00, 1.00, 1.00)
+          Component[0]: RectTransform
+          Component[1]: CanvasRenderer
+          Component[2]: TextMeshProUGUI enabled=True
+            Material: None
+            Font Asset: LiberationSans SDF [TMP_FontAsset] @ Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+            Shared Material: LiberationSans SDF Material [Material] @ Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+            Font Material: None
+            Font Color Gradient Preset: None
+            Sprite Asset: None
+            Style Sheet: None
+            Linked Text Component: None
+            Parent Linked Component: None
+            Base Material: None
+
+        GameObject: LocalContent
+          Path: WorldMapUI/Canvas/SafeFrame/LocalMapPanel/LocalContent
+          ActiveSelf: True   ActiveInHierarchy: False
+          Tag: Untagged   Layer: Default (0)
+          Transform:
+            LocalPosition: (-16.75, 40.00, 0.00)
+            LocalRotation (Euler): (0.00, 0.00, 0.00)
+            LocalScale: (1.00, 1.00, 1.00)
+          Component[0]: RectTransform
+
+          GameObject: MapImage_Local
+            Path: WorldMapUI/Canvas/SafeFrame/LocalMapPanel/LocalContent/MapImage_Local
+            ActiveSelf: True   ActiveInHierarchy: False
+            Tag: Untagged   Layer: Default (0)
+            Transform:
+              LocalPosition: (0.00, 0.00, 0.00)
+              LocalRotation (Euler): (0.00, 0.00, 0.00)
+              LocalScale: (1.00, 1.00, 1.00)
+            Component[0]: RectTransform
+            Component[1]: CanvasRenderer
+            Component[2]: RawImage enabled=True
+              Material: None
+              Texture: None
+
+      GameObject: UIManager
+        Path: WorldMapUI/Canvas/SafeFrame/UIManager
+        ActiveSelf: True   ActiveInHierarchy: True
+        Tag: Untagged   Layer: Default (0)
+        Transform:
+          LocalPosition: (0.00, 0.00, 0.00)
+          LocalRotation (Euler): (0.00, 0.00, 0.00)
+          LocalScale: (1.00, 1.00, 1.00)
+        Component[0]: RectTransform
+        Component[1]: UIManager enabled=True
+          Info Panel: RectTransform on WorldMapUI/Canvas/SafeFrame/InfoPanel (Scene)
+          World Map Panel: RectTransform on WorldMapUI/Canvas/SafeFrame/WorldMapPanel (Scene)
+          Local Map Panel: RectTransform on WorldMapUI/Canvas/SafeFrame/LocalMapPanel (Scene)
+          Local Content: RectTransform on WorldMapUI/Canvas/SafeFrame/LocalMapPanel/LocalContent (Scene)
+          Local Header Text: TextMeshProUGUI on WorldMapUI/Canvas/SafeFrame/LocalMapPanel/LocalHeaderText (Scene)
+          Rival Info Text: TextMeshProUGUI on WorldMapUI/Canvas/SafeFrame/InfoPanel/RivalInfoText (Scene)
+          Time Text: TextMeshProUGUI on WorldMapUI/Canvas/SafeFrame/InfoPanel/TimeText (Scene)
+          Energy Text: TextMeshProUGUI on WorldMapUI/Canvas/SafeFrame/InfoPanel/EnergyText (Scene)
+          Carried Text: TextMeshProUGUI on WorldMapUI/Canvas/SafeFrame/InfoPanel/CarriedText (Scene)
+          Options Btn: Button on WorldMapUI/Canvas/SafeFrame/OptionBtnCavas/OptionsBtn (Scene)
+          Options Menu: OptionsMenu (WorldMapUI/Canvas/SafeFrame/OptionMenuCavas/OptionsMenu) (Scene)
+          Begin New Btn: Button on WorldMapUI/Canvas/SafeFrame/OptionMenuCavas/OptionsMenu/BeginNewBtn (Scene)
+          Join Existing Btn: Button on WorldMapUI/Canvas/SafeFrame/OptionMenuCavas/OptionsMenu/JoinExistingBtn (Scene)
+          Leave Game Btn: Button on WorldMapUI/Canvas/SafeFrame/OptionMenuCavas/OptionsMenu/LeaveGameBtn (Scene)
+          Player Prefab: Image on PlayerDot (Scene)
+          Other Player Prefab: Image on OtherPlayer (Scene)
+          Npc Prefab: Image on NPC (Scene)
+          Crystal Prefab: Image on CrystalDot_1 (Scene)
+
+      GameObject: EncounterUI
+        Path: WorldMapUI/Canvas/SafeFrame/EncounterUI
+        ActiveSelf: True   ActiveInHierarchy: True
+        Tag: Untagged   Layer: Default (0)
+        Transform:
+          LocalPosition: (0.00, 0.00, 0.00)
+          LocalRotation (Euler): (0.00, 0.00, 0.00)
+          LocalScale: (1.00, 1.00, 1.00)
+        Component[0]: RectTransform
+        Component[1]: EncounterUI enabled=True
+          Encounter Panel: EncounterPanel (WorldMapUI/Canvas/SafeFrame/EncounterCanvas/EncounterPanel) (Scene)
+          Modal Box: RectTransform on WorldMapUI/Canvas/SafeFrame/EncounterCanvas/EncounterPanel/ModalBox (Scene)
+          Title Text: TextMeshProUGUI on WorldMapUI/Canvas/SafeFrame/EncounterCanvas/EncounterPanel/ModalBox/TitleText (Scene)
+          Body Text: TextMeshProUGUI on WorldMapUI/Canvas/SafeFrame/EncounterCanvas/EncounterPanel/ModalBox/BodyText (Scene)
+          Buttons Row: RectTransform on WorldMapUI/Canvas/SafeFrame/EncounterCanvas/EncounterPanel/ModalBox/ButtonsRow (Scene)
+          Continue Btn: Button on WorldMapUI/Canvas/SafeFrame/EncounterCanvas/EncounterPanel/ModalBox/ContinueBtn (Scene)
+          Option Button Prefab: Button on Button (Scene)
+
+      GameObject: ToggleCanvas
+        Path: WorldMapUI/Canvas/SafeFrame/ToggleCanvas
+        ActiveSelf: True   ActiveInHierarchy: True
+        Tag: Untagged   Layer: Default (0)
+        Transform:
+          LocalPosition: (-409.00, -185.00, 0.00)
+          LocalRotation (Euler): (0.00, 0.00, 0.00)
+          LocalScale: (1.00, 1.00, 1.00)
+        Component[0]: RectTransform
+        Component[1]: Canvas enabled=True
+          Camera: None
+        Component[2]: CanvasScaler enabled=False
+        Component[3]: GraphicRaycaster enabled=True
+
+        GameObject: toggleViewBtn
+          Path: WorldMapUI/Canvas/SafeFrame/ToggleCanvas/toggleViewBtn
+          ActiveSelf: True   ActiveInHierarchy: True
+          Tag: Untagged   Layer: Default (0)
+          Transform:
+            LocalPosition: (0.00, 0.00, 0.00)
+            LocalRotation (Euler): (0.00, 0.00, 0.00)
+            LocalScale: (1.00, 1.00, 1.00)
+          Component[0]: RectTransform
+          Component[1]: CanvasRenderer
+          Component[2]: Image enabled=True
+            Material: None
+            Sprite: UISprite [Sprite] @ Resources/unity_builtin_extra
+          Component[3]: Button enabled=True
+            Target Graphic: Image on WorldMapUI/Canvas/SafeFrame/ToggleCanvas/toggleViewBtn (Scene)
+
+          GameObject: Text (TMP)
+            Path: WorldMapUI/Canvas/SafeFrame/ToggleCanvas/toggleViewBtn/Text (TMP)
+            ActiveSelf: True   ActiveInHierarchy: True
+            Tag: Untagged   Layer: Default (0)
+            Transform:
+              LocalPosition: (0.00, 0.00, 0.00)
+              LocalRotation (Euler): (0.00, 0.00, 0.00)
+              LocalScale: (1.00, 1.00, 1.00)
+            Component[0]: RectTransform
+            Component[1]: CanvasRenderer
+            Component[2]: TextMeshProUGUI enabled=True
+              Material: None
+              Font Asset: LiberationSans SDF [TMP_FontAsset] @ Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+              Shared Material: LiberationSans SDF Material [Material] @ Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+              Font Material: None
+              Font Color Gradient Preset: None
+              Sprite Asset: None
+              Style Sheet: None
+              Linked Text Component: None
+              Parent Linked Component: None
+              Base Material: None
+
+      GameObject: EncounterCanvas
+        Path: WorldMapUI/Canvas/SafeFrame/EncounterCanvas
+        ActiveSelf: True   ActiveInHierarchy: True
+        Tag: Untagged   Layer: Default (0)
+        Transform:
+          LocalPosition: (0.00, 0.00, 0.00)
+          LocalRotation (Euler): (0.00, 0.00, 0.00)
+          LocalScale: (1.00, 1.00, 1.00)
+        Component[0]: RectTransform
+        Component[1]: Canvas enabled=True
+          Camera: None
+        Component[2]: CanvasScaler enabled=False
+        Component[3]: GraphicRaycaster enabled=True
+
+        GameObject: EncounterPanel
+          Path: WorldMapUI/Canvas/SafeFrame/EncounterCanvas/EncounterPanel
+          ActiveSelf: False   ActiveInHierarchy: False
+          Tag: Untagged   Layer: Default (0)
+          Transform:
+            LocalPosition: (0.00, 0.00, 0.00)
+            LocalRotation (Euler): (0.00, 0.00, 0.00)
+            LocalScale: (1.00, 1.00, 1.00)
+          Component[0]: RectTransform
+          Component[1]: CanvasRenderer
+          Component[2]: Image enabled=True
+            Material: None
+            Sprite: Background [Sprite] @ Resources/unity_builtin_extra
+
+          GameObject: ModalBox
+            Path: WorldMapUI/Canvas/SafeFrame/EncounterCanvas/EncounterPanel/ModalBox
+            ActiveSelf: True   ActiveInHierarchy: False
+            Tag: Untagged   Layer: Default (0)
+            Transform:
+              LocalPosition: (0.00, 0.00, 0.00)
+              LocalRotation (Euler): (0.00, 0.00, 0.00)
+              LocalScale: (1.00, 1.00, 1.00)
+            Component[0]: RectTransform
+            Component[1]: CanvasRenderer
+            Component[2]: Image enabled=True
+              Material: None
+              Sprite: Background [Sprite] @ Resources/unity_builtin_extra
+
+            GameObject: TitleText
+              Path: WorldMapUI/Canvas/SafeFrame/EncounterCanvas/EncounterPanel/ModalBox/TitleText
+              ActiveSelf: True   ActiveInHierarchy: False
+              Tag: Untagged   Layer: Default (0)
+              Transform:
+                LocalPosition: (-1.00, 130.00, 0.00)
+                LocalRotation (Euler): (0.00, 0.00, 0.00)
+                LocalScale: (1.00, 1.00, 1.00)
+              Component[0]: RectTransform
+              Component[1]: CanvasRenderer
+              Component[2]: TextMeshProUGUI enabled=True
+                Material: None
+                Font Asset: LiberationSans SDF [TMP_FontAsset] @ Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+                Shared Material: LiberationSans SDF Material [Material] @ Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+                Font Material: None
+                Font Color Gradient Preset: None
+                Sprite Asset: None
+                Style Sheet: None
+                Linked Text Component: None
+                Parent Linked Component: None
+                Base Material: None
+
+            GameObject: BodyText
+              Path: WorldMapUI/Canvas/SafeFrame/EncounterCanvas/EncounterPanel/ModalBox/BodyText
+              ActiveSelf: True   ActiveInHierarchy: False
+              Tag: Untagged   Layer: Default (0)
+              Transform:
+                LocalPosition: (-10.00, 47.00, 0.00)
+                LocalRotation (Euler): (0.00, 0.00, 0.00)
+                LocalScale: (1.00, 1.00, 1.00)
+              Component[0]: RectTransform
+              Component[1]: CanvasRenderer
+              Component[2]: TextMeshProUGUI enabled=True
+                Material: None
+                Font Asset: LiberationSans SDF [TMP_FontAsset] @ Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+                Shared Material: LiberationSans SDF Material [Material] @ Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+                Font Material: None
+                Font Color Gradient Preset: None
+                Sprite Asset: None
+                Style Sheet: None
+                Linked Text Component: None
+                Parent Linked Component: None
+                Base Material: None
+
+            GameObject: ButtonsRow
+              Path: WorldMapUI/Canvas/SafeFrame/EncounterCanvas/EncounterPanel/ModalBox/ButtonsRow
+              ActiveSelf: True   ActiveInHierarchy: False
+              Tag: Untagged   Layer: Default (0)
+              Transform:
+                LocalPosition: (-93.50, -34.00, 0.00)
+                LocalRotation (Euler): (0.00, 0.00, 0.00)
+                LocalScale: (1.00, 1.00, 1.00)
+              Component[0]: RectTransform
+              Component[1]: CanvasRenderer
+              Component[2]: HorizontalLayoutGroup enabled=True
+
+              GameObject: Text (TMP)
+                Path: WorldMapUI/Canvas/SafeFrame/EncounterCanvas/EncounterPanel/ModalBox/ButtonsRow/Text (TMP)
+                ActiveSelf: True   ActiveInHierarchy: False
+                Tag: Untagged   Layer: Default (0)
+                Transform:
+                  LocalPosition: (0.00, 0.00, 0.00)
+                  LocalRotation (Euler): (0.00, 0.00, 0.00)
+                  LocalScale: (1.00, 1.00, 1.00)
+                Component[0]: RectTransform
+                Component[1]: CanvasRenderer
+                Component[2]: TextMeshProUGUI enabled=True
+                  Material: None
+                  Font Asset: LiberationSans SDF [TMP_FontAsset] @ Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+                  Shared Material: LiberationSans SDF Material [Material] @ Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+                  Font Material: None
+                  Font Color Gradient Preset: None
+                  Sprite Asset: None
+                  Style Sheet: None
+                  Linked Text Component: None
+                  Parent Linked Component: None
+                  Base Material: None
+
+            GameObject: ContinueBtn
+              Path: WorldMapUI/Canvas/SafeFrame/EncounterCanvas/EncounterPanel/ModalBox/ContinueBtn
+              ActiveSelf: True   ActiveInHierarchy: False
+              Tag: Untagged   Layer: Default (0)
+              Transform:
+                LocalPosition: (0.00, -84.00, 0.00)
+                LocalRotation (Euler): (0.00, 0.00, 0.00)
+                LocalScale: (1.00, 1.00, 1.00)
+              Component[0]: RectTransform
+              Component[1]: CanvasRenderer
+              Component[2]: Image enabled=True
+                Material: None
+                Sprite: UISprite [Sprite] @ Resources/unity_builtin_extra
+              Component[3]: Button enabled=True
+                Target Graphic: Image on WorldMapUI/Canvas/SafeFrame/EncounterCanvas/EncounterPanel/ModalBox/ContinueBtn (Scene)
+
+              GameObject: Text (TMP)
+                Path: WorldMapUI/Canvas/SafeFrame/EncounterCanvas/EncounterPanel/ModalBox/ContinueBtn/Text (TMP)
+                ActiveSelf: True   ActiveInHierarchy: False
+                Tag: Untagged   Layer: Default (0)
+                Transform:
+                  LocalPosition: (0.00, 0.00, 0.00)
+                  LocalRotation (Euler): (0.00, 0.00, 0.00)
+                  LocalScale: (1.00, 1.00, 1.00)
+                Component[0]: RectTransform
+                Component[1]: CanvasRenderer
+                Component[2]: TextMeshProUGUI enabled=True
+                  Material: None
+                  Font Asset: LiberationSans SDF [TMP_FontAsset] @ Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+                  Shared Material: LiberationSans SDF Material [Material] @ Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+                  Font Material: None
+                  Font Color Gradient Preset: None
+                  Sprite Asset: None
+                  Style Sheet: None
+                  Linked Text Component: None
+                  Parent Linked Component: None
+                  Base Material: None
+
+      GameObject: OptionBtnCavas
+        Path: WorldMapUI/Canvas/SafeFrame/OptionBtnCavas
+        ActiveSelf: True   ActiveInHierarchy: True
+        Tag: Untagged   Layer: Default (0)
+        Transform:
+          LocalPosition: (372.63, 228.88, 0.00)
+          LocalRotation (Euler): (0.00, 0.00, 0.00)
+          LocalScale: (1.00, 1.00, 1.00)
+        Component[0]: RectTransform
+        Component[1]: Canvas enabled=True
+          Camera: None
+        Component[2]: CanvasScaler enabled=True
+        Component[3]: GraphicRaycaster enabled=True
+
+        GameObject: OptionsBtn
+          Path: WorldMapUI/Canvas/SafeFrame/OptionBtnCavas/OptionsBtn
+          ActiveSelf: True   ActiveInHierarchy: True
+          Tag: Untagged   Layer: Default (0)
+          Transform:
+            LocalPosition: (1.36, -0.07, 0.00)
+            LocalRotation (Euler): (0.00, 0.00, 0.00)
+            LocalScale: (1.00, 1.00, 1.00)
+          Component[0]: RectTransform
+          Component[1]: CanvasRenderer
+          Component[2]: Image enabled=True
+            Material: None
+            Sprite: UISprite [Sprite] @ Resources/unity_builtin_extra
+          Component[3]: Button enabled=True
+            Target Graphic: Image on WorldMapUI/Canvas/SafeFrame/OptionBtnCavas/OptionsBtn (Scene)
+
+          GameObject: Text (TMP)
+            Path: WorldMapUI/Canvas/SafeFrame/OptionBtnCavas/OptionsBtn/Text (TMP)
+            ActiveSelf: True   ActiveInHierarchy: True
+            Tag: Untagged   Layer: Default (0)
+            Transform:
+              LocalPosition: (0.00, 0.00, 0.00)
+              LocalRotation (Euler): (0.00, 0.00, 0.00)
+              LocalScale: (1.00, 1.00, 1.00)
+            Component[0]: RectTransform
+            Component[1]: CanvasRenderer
+            Component[2]: TextMeshProUGUI enabled=True
+              Material: None
+              Font Asset: LiberationSans SDF [TMP_FontAsset] @ Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+              Shared Material: LiberationSans SDF Material [Material] @ Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+              Font Material: None
+              Font Color Gradient Preset: None
+              Sprite Asset: None
+              Style Sheet: None
+              Linked Text Component: None
+              Parent Linked Component: None
+              Base Material: None
+
+      GameObject: OptionMenuCavas
+        Path: WorldMapUI/Canvas/SafeFrame/OptionMenuCavas
+        ActiveSelf: True   ActiveInHierarchy: True
+        Tag: Untagged   Layer: Default (0)
+        Transform:
+          LocalPosition: (296.88, 139.81, 0.00)
+          LocalRotation (Euler): (0.00, 0.00, 0.00)
+          LocalScale: (1.00, 1.00, 1.00)
+        Component[0]: RectTransform
+        Component[1]: Canvas enabled=True
+          Camera: None
+        Component[2]: CanvasScaler enabled=True
+        Component[3]: GraphicRaycaster enabled=True
+
+        GameObject: OptionsMenu
+          Path: WorldMapUI/Canvas/SafeFrame/OptionMenuCavas/OptionsMenu
+          ActiveSelf: False   ActiveInHierarchy: False
+          Tag: Untagged   Layer: Default (0)
+          Transform:
+            LocalPosition: (0.00, 0.00, 0.00)
+            LocalRotation (Euler): (0.00, 0.00, 0.00)
+            LocalScale: (1.00, 1.00, 1.00)
+          Component[0]: RectTransform
+          Component[1]: CanvasRenderer
+          Component[2]: Image enabled=True
+            Material: None
+            Sprite: Background [Sprite] @ Resources/unity_builtin_extra
+
+          GameObject: BeginNewBtn
+            Path: WorldMapUI/Canvas/SafeFrame/OptionMenuCavas/OptionsMenu/BeginNewBtn
+            ActiveSelf: True   ActiveInHierarchy: False
+            Tag: Untagged   Layer: Default (0)
+            Transform:
+              LocalPosition: (1.50, 37.40, 0.00)
+              LocalRotation (Euler): (0.00, 0.00, 0.00)
+              LocalScale: (1.00, 1.00, 1.00)
+            Component[0]: RectTransform
+            Component[1]: CanvasRenderer
+            Component[2]: Image enabled=True
+              Material: None
+              Sprite: UISprite [Sprite] @ Resources/unity_builtin_extra
+            Component[3]: Button enabled=True
+              Target Graphic: Image on WorldMapUI/Canvas/SafeFrame/OptionMenuCavas/OptionsMenu/BeginNewBtn (Scene)
+
+            GameObject: Text (TMP)
+              Path: WorldMapUI/Canvas/SafeFrame/OptionMenuCavas/OptionsMenu/BeginNewBtn/Text (TMP)
+              ActiveSelf: True   ActiveInHierarchy: False
+              Tag: Untagged   Layer: Default (0)
+              Transform:
+                LocalPosition: (0.00, 0.00, 0.00)
+                LocalRotation (Euler): (0.00, 0.00, 0.00)
+                LocalScale: (1.00, 1.00, 1.00)
+              Component[0]: RectTransform
+              Component[1]: CanvasRenderer
+              Component[2]: TextMeshProUGUI enabled=True
+                Material: None
+                Font Asset: LiberationSans SDF [TMP_FontAsset] @ Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+                Shared Material: LiberationSans SDF Material [Material] @ Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+                Font Material: None
+                Font Color Gradient Preset: None
+                Sprite Asset: None
+                Style Sheet: None
+                Linked Text Component: None
+                Parent Linked Component: None
+                Base Material: None
+
+          GameObject: JoinExistingBtn
+            Path: WorldMapUI/Canvas/SafeFrame/OptionMenuCavas/OptionsMenu/JoinExistingBtn
+            ActiveSelf: True   ActiveInHierarchy: False
+            Tag: Untagged   Layer: Default (0)
+            Transform:
+              LocalPosition: (1.50, 0.50, 0.00)
+              LocalRotation (Euler): (0.00, 0.00, 0.00)
+              LocalScale: (1.00, 1.00, 1.00)
+            Component[0]: RectTransform
+            Component[1]: CanvasRenderer
+            Component[2]: Image enabled=True
+              Material: None
+              Sprite: UISprite [Sprite] @ Resources/unity_builtin_extra
+            Component[3]: Button enabled=True
+              Target Graphic: Image on WorldMapUI/Canvas/SafeFrame/OptionMenuCavas/OptionsMenu/JoinExistingBtn (Scene)
+
+            GameObject: Text (TMP)
+              Path: WorldMapUI/Canvas/SafeFrame/OptionMenuCavas/OptionsMenu/JoinExistingBtn/Text (TMP)
+              ActiveSelf: True   ActiveInHierarchy: False
+              Tag: Untagged   Layer: Default (0)
+              Transform:
+                LocalPosition: (0.00, 0.00, 0.00)
+                LocalRotation (Euler): (0.00, 0.00, 0.00)
+                LocalScale: (1.00, 1.00, 1.00)
+              Component[0]: RectTransform
+              Component[1]: CanvasRenderer
+              Component[2]: TextMeshProUGUI enabled=True
+                Material: None
+                Font Asset: LiberationSans SDF [TMP_FontAsset] @ Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+                Shared Material: LiberationSans SDF Material [Material] @ Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+                Font Material: None
+                Font Color Gradient Preset: None
+                Sprite Asset: None
+                Style Sheet: None
+                Linked Text Component: None
+                Parent Linked Component: None
+                Base Material: None
+
+          GameObject: LeaveGameBtn
+            Path: WorldMapUI/Canvas/SafeFrame/OptionMenuCavas/OptionsMenu/LeaveGameBtn
+            ActiveSelf: True   ActiveInHierarchy: False
+            Tag: Untagged   Layer: Default (0)
+            Transform:
+              LocalPosition: (2.50, -35.90, 0.00)
+              LocalRotation (Euler): (0.00, 0.00, 0.00)
+              LocalScale: (1.00, 1.00, 1.00)
+            Component[0]: RectTransform
+            Component[1]: CanvasRenderer
+            Component[2]: Image enabled=True
+              Material: None
+              Sprite: UISprite [Sprite] @ Resources/unity_builtin_extra
+            Component[3]: Button enabled=True
+              Target Graphic: Image on WorldMapUI/Canvas/SafeFrame/OptionMenuCavas/OptionsMenu/LeaveGameBtn (Scene)
+
+            GameObject: Text (TMP)
+              Path: WorldMapUI/Canvas/SafeFrame/OptionMenuCavas/OptionsMenu/LeaveGameBtn/Text (TMP)
+              ActiveSelf: True   ActiveInHierarchy: False
+              Tag: Untagged   Layer: Default (0)
+              Transform:
+                LocalPosition: (0.00, 0.00, 0.00)
+                LocalRotation (Euler): (0.00, 0.00, 0.00)
+                LocalScale: (1.00, 1.00, 1.00)
+              Component[0]: RectTransform
+              Component[1]: CanvasRenderer
+              Component[2]: TextMeshProUGUI enabled=True
+                Material: None
+                Font Asset: LiberationSans SDF [TMP_FontAsset] @ Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+                Shared Material: LiberationSans SDF Material [Material] @ Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+                Font Material: None
+                Font Color Gradient Preset: None
+                Sprite Asset: None
+                Style Sheet: None
+                Linked Text Component: None
+                Parent Linked Component: None
+                Base Material: None
+
+  GameObject: MapOverlays
+    Path: WorldMapUI/MapOverlays
+    ActiveSelf: True   ActiveInHierarchy: True
+    Tag: Untagged   Layer: Default (0)
+    Transform:
+      LocalPosition: (828.72, 159.55, 0.00)
+      LocalRotation (Euler): (0.00, 0.00, 0.00)
+      LocalScale: (1.11, 1.11, 1.11)
+    Component[0]: RectTransform
+    Component[1]: MapOverlays enabled=True
+      World Map Panel: RectTransform on WorldMapUI/Canvas/SafeFrame/WorldMapPanel (Scene)
+      Local Map Panel: RectTransform on WorldMapUI/Canvas/SafeFrame/LocalMapPanel (Scene)
+      Local Content: RectTransform on WorldMapUI/Canvas/SafeFrame/LocalMapPanel/LocalContent (Scene)
+      World Overlay Layer: None
+
+  GameObject: MapboxStaticMaps
+    Path: WorldMapUI/MapboxStaticMaps
+    ActiveSelf: True   ActiveInHierarchy: True
+    Tag: Untagged   Layer: Default (0)
+    Transform:
+      LocalPosition: (0.00, 0.00, 0.00)
+      LocalRotation (Euler): (0.00, 0.00, 0.00)
+      LocalScale: (1.00, 1.00, 1.00)
+    Component[0]: Transform
+    Component[1]: GeoMapper enabled=True
+    Component[2]: MapboxStaticImagesBinder enabled=True
+      World Image: RawImage on WorldMapUI/Canvas/SafeFrame/WorldMapPanel/MapImage_World (Scene)
+      Local Image: RawImage on WorldMapUI/Canvas/SafeFrame/LocalMapPanel/LocalContent/MapImage_Local (Scene)
+      Geo: GeoMapper on WorldMapUI/MapboxStaticMaps (Scene)
+      View: MapViewController on WorldMapUI (Scene)
+
+GameObject: EventSystem
+  Path: EventSystem
+  ActiveSelf: True   ActiveInHierarchy: True
+  Tag: Untagged   Layer: Default (0)
+  Transform:
+    LocalPosition: (0.00, 0.00, 0.00)
+    LocalRotation (Euler): (0.00, 0.00, 0.00)
+    LocalScale: (1.00, 1.00, 1.00)
+  Component[0]: Transform
+  Component[1]: EventSystem enabled=True
+    First Selected: None
+  Component[2]: StandaloneInputModule enabled=True
+
+GameObject: GameBoundary
+  Path: GameBoundary
+  ActiveSelf: True   ActiveInHierarchy: True
+  Tag: Untagged   Layer: Default (0)
+  Transform:
+    LocalPosition: (0.00, 0.00, 3.98)
+    LocalRotation (Euler): (0.00, 0.00, 0.00)
+    LocalScale: (1.00, 1.00, 1.00)
+  Component[0]: Transform
+
+GameObject: GroundPlane
+  Path: GroundPlane
+  ActiveSelf: False   ActiveInHierarchy: False
+  Tag: Untagged   Layer: Default (0)
+  Transform:
+    LocalPosition: (0.00, 0.00, 0.00)
+    LocalRotation (Euler): (0.00, 0.00, 0.00)
+    LocalScale: (1.00, 1.00, 1.00)
+  Component[0]: Transform
+
+  GameObject: Grid_1
+    Path: GroundPlane/Grid_1
+    ActiveSelf: True   ActiveInHierarchy: False
+    Tag: Untagged   Layer: Default (0)
+    Prefab: Free Isometric Pack Palette  [Connected]  AssetPath: Assets/Art/Free Isometric Pack Palette.prefab
+    Transform:
+      LocalPosition: (0.00, 0.00, 0.00)
+      LocalRotation (Euler): (0.00, 0.00, 0.00)
+      LocalScale: (1.00, 1.00, 1.00)
+    Component[0]: Transform
+    Component[1]: Grid enabled=True
+
+    GameObject: Layer1
+      Path: GroundPlane/Grid_1/Layer1
+      ActiveSelf: True   ActiveInHierarchy: False
+      Tag: Untagged   Layer: Default (0)
+      Prefab: Layer1  [Connected]  AssetPath: Assets/Art/Free Isometric Pack Palette.prefab
+      Transform:
+        LocalPosition: (0.00, 0.00, 0.00)
+        LocalRotation (Euler): (0.00, 0.00, 0.00)
+        LocalScale: (1.00, 1.00, 1.00)
+      Component[0]: Transform
+      Component[1]: Tilemap enabled=True
+      Component[2]: TilemapRenderer
+        Probe Anchor: None
+        Light Probe Volume Override: None
+        Lightmap Parameters: None
+
+GameObject: NetworkManager
+  Path: NetworkManager
+  ActiveSelf: True   ActiveInHierarchy: True
+  Tag: Untagged   Layer: Default (0)
+  Transform:
+    LocalPosition: (0.89, 3.71, 0.50)
+    LocalRotation (Euler): (0.00, 0.00, 0.00)
+    LocalScale: (1.00, 1.00, 1.00)
+  Component[0]: Transform
+  Component[1]: NetworkManager enabled=True
+
+GameObject: GameManager
+  Path: GameManager
+  ActiveSelf: True   ActiveInHierarchy: True
+  Tag: Untagged   Layer: Default (0)
+  Transform:
+    LocalPosition: (0.00, 0.00, 0.00)
+    LocalRotation (Euler): (0.00, 0.00, 0.00)
+    LocalScale: (1.00, 1.00, 1.00)
+  Component[0]: Transform
+  Component[1]: GameManager enabled=True
+  Component[2]: FirebaseInit enabled=True
+
+GameObject: PlayerController
+  Path: PlayerController
+  ActiveSelf: True   ActiveInHierarchy: True
+  Tag: Untagged   Layer: Default (0)
+  Transform:
+    LocalPosition: (511.54, 255.62, 0.34)
+    LocalRotation (Euler): (0.00, 0.00, 0.00)
+    LocalScale: (1.00, 1.00, 1.00)
+  Component[0]: Transform
+  Component[1]: PlayerController enabled=True
+
+GameObject: ClientSim
+  Path: ClientSim
+  ActiveSelf: False   ActiveInHierarchy: False
+  Tag: Untagged   Layer: Default (0)
+  Transform:
+    LocalPosition: (511.54, 255.62, 0.34)
+    LocalRotation (Euler): (0.00, 0.00, 0.00)
+    LocalScale: (1.00, 1.00, 1.00)
+  Component[0]: Transform
+  Component[1]: ClientSim enabled=True
+
+GameObject: EncounterManager
+  Path: EncounterManager
+  ActiveSelf: True   ActiveInHierarchy: True
+  Tag: Untagged   Layer: Default (0)
+  Transform:
+    LocalPosition: (157.04, 169.67, -0.21)
+    LocalRotation (Euler): (0.00, 0.00, 0.00)
+    LocalScale: (1.00, 1.00, 1.00)
+  Component[0]: Transform
+  Component[1]: EncounterManager enabled=True
+
+GameObject: TouchControlsCanvas
+  Path: TouchControlsCanvas
+  ActiveSelf: True   ActiveInHierarchy: True
+  Tag: Untagged   Layer: UI (5)
+  Transform:
+    LocalPosition: (400.00, 225.00, 0.00)
+    LocalRotation (Euler): (0.00, 0.00, 0.00)
+    LocalScale: (1.00, 1.00, 1.00)
+  Component[0]: RectTransform
+  Component[1]: Canvas enabled=True
+    Camera: None
+  Component[2]: CanvasScaler enabled=True
+  Component[3]: GraphicRaycaster enabled=True
+
+  GameObject: Dpad
+    Path: TouchControlsCanvas/Dpad
+    ActiveSelf: True   ActiveInHierarchy: True
+    Tag: Untagged   Layer: UI (5)
+    Transform:
+      LocalPosition: (0.00, -159.00, 0.00)
+      LocalRotation (Euler): (0.00, 0.00, 0.00)
+      LocalScale: (1.00, 1.00, 1.00)
+    Component[0]: RectTransform
+    Component[1]: TouchDpad enabled=True
+
+    GameObject: BtnUp
+      Path: TouchControlsCanvas/Dpad/BtnUp
+      ActiveSelf: True   ActiveInHierarchy: True
+      Tag: Untagged   Layer: UI (5)
+      Transform:
+        LocalPosition: (0.00, 0.00, 0.00)
+        LocalRotation (Euler): (0.00, 0.00, 0.00)
+        LocalScale: (1.00, 1.00, 1.00)
+      Component[0]: RectTransform
+      Component[1]: CanvasRenderer
+      Component[2]: Image enabled=True
+        Material: None
+        Sprite: UISprite [Sprite] @ Resources/unity_builtin_extra
+      Component[3]: TouchDpadButton enabled=True
+
+      GameObject: Text (TMP)
+        Path: TouchControlsCanvas/Dpad/BtnUp/Text (TMP)
+        ActiveSelf: True   ActiveInHierarchy: True
+        Tag: Untagged   Layer: UI (5)
+        Transform:
+          LocalPosition: (0.00, 0.00, 0.00)
+          LocalRotation (Euler): (0.00, 0.00, 0.00)
+          LocalScale: (1.00, 1.00, 1.00)
+        Component[0]: RectTransform
+        Component[1]: CanvasRenderer
+        Component[2]: TextMeshProUGUI enabled=True
+          Material: None
+          Font Asset: LiberationSans SDF [TMP_FontAsset] @ Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+          Shared Material: LiberationSans SDF Material [Material] @ Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+          Font Material: None
+          Font Color Gradient Preset: None
+          Sprite Asset: None
+          Style Sheet: None
+          Linked Text Component: None
+          Parent Linked Component: None
+          Base Material: None
+
+    GameObject: BtnDown
+      Path: TouchControlsCanvas/Dpad/BtnDown
+      ActiveSelf: True   ActiveInHierarchy: True
+      Tag: Untagged   Layer: UI (5)
+      Transform:
+        LocalPosition: (0.00, -33.00, 0.00)
+        LocalRotation (Euler): (0.00, 0.00, 0.00)
+        LocalScale: (1.00, 1.00, 1.00)
+      Component[0]: RectTransform
+      Component[1]: CanvasRenderer
+      Component[2]: Image enabled=True
+        Material: None
+        Sprite: UISprite [Sprite] @ Resources/unity_builtin_extra
+      Component[3]: TouchDpadButton enabled=True
+
+      GameObject: Text (TMP)
+        Path: TouchControlsCanvas/Dpad/BtnDown/Text (TMP)
+        ActiveSelf: True   ActiveInHierarchy: True
+        Tag: Untagged   Layer: UI (5)
+        Transform:
+          LocalPosition: (0.00, 0.00, 0.00)
+          LocalRotation (Euler): (0.00, 0.00, 0.00)
+          LocalScale: (1.00, 1.00, 1.00)
+        Component[0]: RectTransform
+        Component[1]: CanvasRenderer
+        Component[2]: TextMeshProUGUI enabled=True
+          Material: None
+          Font Asset: LiberationSans SDF [TMP_FontAsset] @ Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+          Shared Material: LiberationSans SDF Material [Material] @ Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+          Font Material: None
+          Font Color Gradient Preset: None
+          Sprite Asset: None
+          Style Sheet: None
+          Linked Text Component: None
+          Parent Linked Component: None
+          Base Material: None
+
+    GameObject: BtnLeft
+      Path: TouchControlsCanvas/Dpad/BtnLeft
+      ActiveSelf: True   ActiveInHierarchy: True
+      Tag: Untagged   Layer: UI (5)
+      Transform:
+        LocalPosition: (-166.00, -31.00, 0.00)
+        LocalRotation (Euler): (0.00, 0.00, 0.00)
+        LocalScale: (1.00, 1.00, 1.00)
+      Component[0]: RectTransform
+      Component[1]: CanvasRenderer
+      Component[2]: Image enabled=True
+        Material: None
+        Sprite: UISprite [Sprite] @ Resources/unity_builtin_extra
+      Component[3]: TouchDpadButton enabled=True
+
+      GameObject: Text (TMP)
+        Path: TouchControlsCanvas/Dpad/BtnLeft/Text (TMP)
+        ActiveSelf: True   ActiveInHierarchy: True
+        Tag: Untagged   Layer: UI (5)
+        Transform:
+          LocalPosition: (0.00, 0.00, 0.00)
+          LocalRotation (Euler): (0.00, 0.00, 0.00)
+          LocalScale: (1.00, 1.00, 1.00)
+        Component[0]: RectTransform
+        Component[1]: CanvasRenderer
+        Component[2]: TextMeshProUGUI enabled=True
+          Material: None
+          Font Asset: LiberationSans SDF [TMP_FontAsset] @ Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+          Shared Material: LiberationSans SDF Material [Material] @ Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+          Font Material: None
+          Font Color Gradient Preset: None
+          Sprite Asset: None
+          Style Sheet: None
+          Linked Text Component: None
+          Parent Linked Component: None
+          Base Material: None
+
+    GameObject: BtnRight
+      Path: TouchControlsCanvas/Dpad/BtnRight
+      ActiveSelf: True   ActiveInHierarchy: True
+      Tag: Untagged   Layer: UI (5)
+      Transform:
+        LocalPosition: (166.00, -33.00, 0.00)
+        LocalRotation (Euler): (0.00, 0.00, 0.00)
+        LocalScale: (1.00, 1.00, 1.00)
+      Component[0]: RectTransform
+      Component[1]: CanvasRenderer
+      Component[2]: Image enabled=True
+        Material: None
+        Sprite: UISprite [Sprite] @ Resources/unity_builtin_extra
+      Component[3]: TouchDpadButton enabled=True
+
+      GameObject: Text (TMP)
+        Path: TouchControlsCanvas/Dpad/BtnRight/Text (TMP)
+        ActiveSelf: True   ActiveInHierarchy: True
+        Tag: Untagged   Layer: UI (5)
+        Transform:
+          LocalPosition: (0.00, 0.00, 0.00)
+          LocalRotation (Euler): (0.00, 0.00, 0.00)
+          LocalScale: (1.00, 1.00, 1.00)
+        Component[0]: RectTransform
+        Component[1]: CanvasRenderer
+        Component[2]: TextMeshProUGUI enabled=True
+          Material: None
+          Font Asset: LiberationSans SDF [TMP_FontAsset] @ Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+          Shared Material: LiberationSans SDF Material [Material] @ Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+          Font Material: None
+          Font Color Gradient Preset: None
+          Sprite Asset: None
+          Style Sheet: None
+          Linked Text Component: None
+          Parent Linked Component: None
+          Base Material: None
+
+
